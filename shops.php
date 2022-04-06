@@ -17,7 +17,7 @@
     <div class="Categories">
         <div class="container">
             <div id="brand"  class="brand-bg" style="margin-top:40px;">
-                <h3>New brands</h3>
+                <h3>Store</h3>
                 <div class="row"> 
 
     <?php
