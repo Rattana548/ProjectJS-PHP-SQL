@@ -1,0 +1,96 @@
+/** brand section **/
+ .brand-bg  {
+box-shadow: #ddd 0px 0px 19px 8px;
+margin-bottom: 29px;
+padding: 40px 25px;
+  }
+ .brand-bg h3 {
+ 	font-size:26px; 
+ 	line-height: 30px; 
+ 	color: #000; 
+ 	font-weight: bold;  
+ 	text-transform: uppercase;
+    padding-bottom: 30px;
+ 	 }
+ .brand-bg .brand-box {
+ 	text-align: center;
+ 	padding: 25px 20px 25px 20px;
+ 	text-align: center;
+
+ }
+
+
+.brand-bg .brand-box i {
+    height: 200px;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.brand-bg .brand-box img {
+    width: 100%;
+    height: 100%;
+}
+
+
+ .brand-bg .brand-box  h4 {
+ color: #020000;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+padding-bottom: 0px;
+
+ }
+ .brand-bg .brand-box h5 {
+top: 0px;
+position: absolute;
+background: #ee3e0f;
+left: 16px;
+font-size: 16px;
+color: #fff;
+padding: 8px 20px;
+line-height: 15px;
+ }
+ .brand-bg .brand-box span {
+ 	color: #020000;
+ 	font-weight: 500;
+ 	font-size: 17px;
+ 	line-height: 22px;
+ }
+.buynow {
+	max-width: 160px;
+width: 100%;
+padding: 15px 0px;
+font-size: 20px;
+line-height: 20px;
+font-weight: 500;
+background: #ee3e0f;
+color: #fff;
+text-align: center;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 30px;
+transition: all .4s ease-in;
+}
+
+.buynow:hover {
+	background: #000;
+	color: #fff;
+    transition: all .4s ease-in;
+    border-radius: 30px;
+}
+.seemore {
+	float: none;
+color: #000;
+font-size: 16px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+}
+.seemore:hover {color: #ee3e0f; }
+/** end brand section **/
