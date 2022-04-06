@@ -11,42 +11,38 @@
 
     if(count($result)){
     ?>
-
-
 <div id="content">
-    <div class="Categories">
+    <div class="Categories my-5">
         <div class="container">
-            <div id="brand"  class="brand-bg" style="margin-top:40px;">
+            <div id="brand" class="brand-bg">
                 <h3>Store</h3>
-                <div class="row"> 
+                <div class="row">
 
-    <?php
+                    <?php
     foreach($result as $row){
 ?>
 
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <h4 class="text-center"><span class="nolmal"><?= $row['name'] ?></span></h4>
+                        <h4 class="text-center"><span class="nolmal"><?= $row['name'] ?></span></h4>
                         <div class="brand-box">
-                            <i><img src="image/product/<?= $row['image']?>"/></i>
+                            <i><img src="image/product/<?= $row['image']?>" /></i>
                             <h4>Price $<span class="nolmal"><?= $row['price'] ?></span></h4>
                         </div>
                         <button type="submit" class="buynow" onclick="location.href='#'">Buy now</button>
                     </div>
 
-<?php
+                    <?php
     }
     ?>
-    </div>
+                </div>
             </div>
-                    <!-- end news brand -->
+            <!-- end news brand -->
+        </div>
     </div>
-</div>
-    
-<?php
+
+    <?php
     }else{
         Response::error('error',404);
     }
 
 ?>
-
-                

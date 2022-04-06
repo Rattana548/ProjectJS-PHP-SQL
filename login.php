@@ -7,16 +7,17 @@
                 </div>
                 <form class="user" method="get" action="./login/login.php">
                     <div class="mb-3">
-                        <input type="text" class="form-control form-control-user" name="email" placeholder="Enter Email">
+                        <input type="text" class="form-control form-control-user" name="email"
+                            placeholder="Enter Email">
                     </div>
                     <div class="mb-3">
-                        <input type="password" class="form-control form-control-user" placeholder="Password" name="password">
+                        <input type="password" class="form-control form-control-user" placeholder="Password"
+                            name="password">
                     </div>
                     <button type="submit" class="btn btn-outline-primary mb-3">Login</button>
                 </form>
             </div>
             <img src="./image/2.jpg" class="col-lg-6 d-none d-lg-block" alt="..." height="400">
-        </div>       
+        </div>
     </div>
 </div>
-

@@ -21,7 +21,7 @@
             $_SESSION['email'] = $row['email'];
             $_SESSION['password'] = $row['password'];
             $_SESSION['status'] = $row['status'];
-            header('refresh:1;url=../index.php?');
+            header('refresh:1;url=../index.php?page=index');
         }
     }else{
         Response::error('error',404);

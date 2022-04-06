@@ -94,3 +94,9 @@ margin: 0 auto;
 }
 .seemore:hover {color: #ee3e0f; }
 /** end brand section **/
+.nevnev {
+	color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+
+}

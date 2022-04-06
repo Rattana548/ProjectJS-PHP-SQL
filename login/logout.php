@@ -6,5 +6,5 @@ unset($_SESSION["lname"]);
 unset($_SESSION["email"]);
 unset($_SESSION["password"]);
 unset($_SESSION["status"]);
-header('refresh:1;url=../index.php?');
+header('refresh:1;url=../index.php?page=index');
 ?>
