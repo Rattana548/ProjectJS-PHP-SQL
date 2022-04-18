@@ -1,9 +1,9 @@
 <?php
 
-    $server = 'localhost';
-    $username = 'root';
-    $password = 'AMENOfGMPr';
-    $dbname = 'shop';
+    $server = {host};
+    $username = {user};
+    $password = {password};
+    $dbname = {db_name};
 
     try{
         $con = new PDO("mysql:host=$server;dbname=$dbname",$username,$password);
@@ -12,6 +12,5 @@
         echo "Connection falied : ". $a->getMessage();
         exit();
     }
-
 
 ?>
