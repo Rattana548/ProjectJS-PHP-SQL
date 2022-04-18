@@ -2,7 +2,7 @@
 
     $server = 'localhost';
     $username = 'root';
-    $password = '05L61FyJ89';
+    $password = 'AMENOfGMPr';
     $dbname = 'shop';
 
     try{
